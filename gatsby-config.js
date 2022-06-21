@@ -2,12 +2,12 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    siteTitle: "gatsby-starter-shopify",
-    siteTitleDefault: "gatsby-starter-shopify by @GatsbyJS",
-    siteUrl: "https://shopify-demo.gatsbyjs.com",
+    siteTitle: "Applitools eCommerce Demo",
+    siteTitleDefault: "Applitools eCommerce Demo",
+    siteUrl: "https://applitoolsecommdemo.gtsb.io/products/",
     hrefLang: "en",
     siteDescription:
-      "A Gatsby starter using the latest Shopify plugin showcasing a store with product overview, individual product pages, and a cart.",
+      "A headless ecommerce site tested with Cypress and Applitools",
     siteImage: "/default-og-image.jpg",
     twitter: "@gatsbyjs",
   },
