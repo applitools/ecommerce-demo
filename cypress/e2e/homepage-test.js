@@ -5,7 +5,7 @@
 // Test Cases
 // --------------------------------------------------------------------------------
 
-describe('A visual test with Applitools', () => {
+describe('A visual test on Applitools eComm Demo', () => {
 
     it('should log into the demo app', () => {
 
@@ -29,7 +29,7 @@ describe('A visual test with Applitools', () => {
 // --------------------------------------------------------------------------------
 
 function loadHomePage() {
-    cy.visit('https://applitoolsecommdemo.gtsb.io/products/')
+    cy.visit('https://applitoolsecommdemo.gtsb.io/')
 }
 
 function verifyHomePage() {
