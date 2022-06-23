@@ -180,11 +180,6 @@ export default function Product({ data: { product, suggestions } }) {
                 ))}
             </fieldset>
             <div className={addToCartStyle}>
-            <AddToCart
-                variantId={productVariant.storefrontId}
-                quantity={quantity}
-                available={available}
-              />
               <NumericInput
                 aria-label="Quantity"
                 onIncrement={() => setQuantity((q) => Math.min(q + 1, 20))}
@@ -193,6 +188,11 @@ export default function Product({ data: { product, suggestions } }) {
                 value={quantity}
                 min="1"
                 max="20"
+              />
+              <AddToCart
+                variantId={productVariant.storefrontId}
+                quantity={quantity}
+                available={available}
               />
             </div>
             <div className={metaSection}>
