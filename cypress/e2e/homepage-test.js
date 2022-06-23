@@ -29,7 +29,7 @@ describe('A visual test on Applitools eComm Demo', () => {
 // --------------------------------------------------------------------------------
 
 function loadHomePage() {
-    cy.visit('https://applitools-demo-shopify.vercel.app/')
+    cy.visit('https://applitools-demo-shopify.vercel.app/products/outdoors/gorgeous-cotton-computer/')
 }
 
 function verifyHomePage() {

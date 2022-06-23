@@ -14,6 +14,7 @@ module.exports = defineConfig({
   eyesIsGlobalHooksSupported: false,
   eyesPort: 63146,
   e2e: {
+    baseUrl: "http://localhost:8000",
     // We've imported your old cypress plugins here.
     // You may want to clean this up later by importing these.
     setupNodeEvents(on, config) {
