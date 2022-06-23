@@ -10,5 +10,5 @@ module.exports = {
         {deviceName: 'iPhone X', screenOrientation: 'landscape'}
     ],
     // set batch name to the configuration
-    batchName: 'eCommerce Demo'
+    batchName: 'EyeStore eCommerce App'
 }

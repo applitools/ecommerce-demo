@@ -8,7 +8,7 @@ module.exports = defineConfig({
   eyesTestConcurrency: 5,
   appliConfFile: {
     batch: {
-      id: 'bf45888e-f030-49ca-af9a-014279c8574b',
+      id: 'bf45888e-f030-49ca-af9a-014279c8574bz',
     },
   },
   eyesIsGlobalHooksSupported: false,
