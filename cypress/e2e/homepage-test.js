@@ -29,7 +29,7 @@ describe('A visual test on Applitools eComm Demo', () => {
 // --------------------------------------------------------------------------------
 
 function loadHomePage() {
-    cy.visit('https://applitoolsecommdemo.gtsb.io/')
+    cy.visit('https://applitools-demo-shopify.vercel.app/')
 }
 
 function verifyHomePage() {
