@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: row;
   color: var(--text-color-inverted);
-  background-color: #222;
+  background-color: var(--primary);
   align-self: flex-end;
   padding: var(--space-sm) var(--space-xl);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   font-weight: var(--bold);
   align-items: center;
   height: var(--size-input);
