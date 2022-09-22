@@ -1,7 +1,7 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
-  projectId: 'ixk3qy',
+  projectId: 'c5x2ap',
   eyesIsDisabled: false,
   eyesFailCypressOnDiff: true,
   eyesDisableBrowserFetching: false,

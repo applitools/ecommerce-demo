@@ -16,6 +16,7 @@ describe('A visual test on Applitools eComm Demo', () => {
 
         loadHomePage()
         verifyHomePage()
+        percySnap()
     })
 
     afterEach(() => {
@@ -40,3 +41,6 @@ function verifyHomePage() {
     });
 }
 
+function percySnap() {
+    cy.percySnapshot('Homepage test');
+}
