@@ -5,13 +5,13 @@
 // Test Cases
 // --------------------------------------------------------------------------------
 
-describe('Validating the product page', () => {
+describe('A visual test on Applitools eComm Demo', () => {
 
-    it('should go to the product page', () => {
+    it('should log into the demo app', () => {
 
         cy.eyesOpen({
-            appName: 'Applitools eCommerce Demo',
-            testName: 'Product Page Validation',
+            appName: 'Load eCommerce Store',
+            testName: 'Product Page',
         })
 
         loadProductsPage()
