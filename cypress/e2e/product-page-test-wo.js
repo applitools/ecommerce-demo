@@ -5,22 +5,14 @@
 // Test Cases
 // --------------------------------------------------------------------------------
 
-describe('A visual test on Applitools eComm Demo', () => {
+describe('Validating the product page', () => {
 
-    it('should log into the demo app', () => {
-
-        cy.eyesOpen({
-            appName: 'Load eCommerce Store',
-            testName: 'Product Page',
-        })
+    it('should go to the product page', () => {
 
         loadProductsPage()
         verifyProductsPage()
     })
 
-    afterEach(() => {
-        cy.eyesClose()
-    })
 })
 
 
@@ -33,10 +25,9 @@ function loadProductsPage() {
 }
 
 function verifyProductsPage() {
-    cy.eyesCheckWindow({
-        tag: "Products Page",
-        target: 'window',
-        fully: true
-    });
+    cy.get('whatever img selector').should('be.visible');
+    cy.contains('Serious Callers Only.').should('be.visible');
+    cy.contains('Huge Succulent Planter Pot').should('be.visible');
+    cy.get('.product-page-module--priceValue--gk0OJ > span').invoke('text').should('match', /^\$\d+\.\d{2}$/);
 }
 
