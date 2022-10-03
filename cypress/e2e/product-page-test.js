@@ -34,9 +34,7 @@ function loadProductsPage() {
 
 function verifyProductsPage() {
     cy.eyesCheckWindow({
-        tag: "Products Page",
-        target: 'window',
-        fully: true
+        tag: "Products Page"
     });
 }
 

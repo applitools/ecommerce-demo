@@ -15,7 +15,6 @@ describe('Validating the product page', () => {
 
 })
 
-
 // --------------------------------------------------------------------------------
 // Test Step Functions
 // --------------------------------------------------------------------------------
@@ -25,9 +24,10 @@ function loadProductsPage() {
 }
 
 function verifyProductsPage() {
-    cy.get('whatever img selector').should('be.visible');
+//    cy.get('product-page-module--productImageWrapper--++InC').should('be.visible');
+    cy.contains('All products').should('be.visible');
     cy.contains('Serious Callers Only.').should('be.visible');
-    cy.contains('Huge Succulent Planter Pot').should('be.visible');
+    cy.contains('Add to Cart').should('be.visible');
     cy.get('.product-page-module--priceValue--gk0OJ > span').invoke('text').should('match', /^\$\d+\.\d{2}$/);
 }
 
