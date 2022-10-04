@@ -20,6 +20,8 @@ describe('Validating the product page', () => {
 // --------------------------------------------------------------------------------
 
 function loadProductsPage() {
+    cy.clearLocalStorage;
+    cy.clearCookies;
     cy.visit('https://applitools-demo-shopify.vercel.app/products/outdoors/gorgeous-cotton-computer/')
 }
 
