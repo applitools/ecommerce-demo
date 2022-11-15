@@ -10,10 +10,10 @@ describe('Validating the product page', () => {
     it('should go to the product page', () => {
 
         cy.eyesOpen({
-            appName: 'Applitools eCommerce Demo',
-            testName: 'Product Page Validation',
+            appName: 'Eyestore',
+            testName: 'Succulent Page',
         })
-
+        
         loadProductsPage()
         verifyProductsPage()
     })
@@ -34,7 +34,6 @@ function loadProductsPage() {
 
 function verifyProductsPage() {
     cy.eyesCheckWindow({
-        tag: "Products Page"
     });
 }
 
