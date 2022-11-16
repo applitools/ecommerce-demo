@@ -1,6 +1,6 @@
 module.exports = {
     testConcurrency: 5,
-    apiKey: 'WoPMVgSCKcEAl7aHpFSdkgY6N16109h2Y5vXJKbE8ReSg110',
+    apiKey: process.env.APPLITOOLS_API_KEY,
     browser: [
         // Add browsers with different viewports
         {width: 1600, height: 1200, name: 'chrome'},
