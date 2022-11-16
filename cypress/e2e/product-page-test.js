@@ -5,17 +5,17 @@
 // Test Cases
 // --------------------------------------------------------------------------------
 
-describe('A visual test with Applitools', () => {
+describe('Validating the product page', () => {
 
-    it('should log into the demo app', () => {
+    it('should go to the product page', () => {
 
         cy.eyesOpen({
-            appName: 'Load eCommerce Store',
-            testName: 'Homepage Products',
+            appName: 'Eyestore',
+            testName: 'Succulent Page',
         })
-
-        loadHomePage()
-        verifyHomePage()
+        
+        loadProductsPage()
+        verifyProductsPage()
     })
 
     afterEach(() => {
@@ -28,15 +28,12 @@ describe('A visual test with Applitools', () => {
 // Test Step Functions
 // --------------------------------------------------------------------------------
 
-function loadHomePage() {
-    cy.visit('https://applitoolsecommdemo.gtsb.io/products/')
+function loadProductsPage() {
+    cy.visit('https://applitools-demo-ecommerce.vercel.app/products/outdoors/gorgeous-cotton-computer/')
 }
 
-function verifyHomePage() {
+function verifyProductsPage() {
     cy.eyesCheckWindow({
-        tag: "Home Page",
-        target: 'window',
-        fully: true
     });
 }
 
