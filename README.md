@@ -1,19 +1,19 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://applitools.com">
+    <img alt="Applitools" src="https://applitools.com/wp-content/uploads/2022/08/Applitools-Logo-Set-V2_Applitools_1c_Green_Applitools_fullcolor_tagline-1.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby Starter Shopify
+  Applitools eCommerce Demo (Powered by Gatsby and Shopify)
 </h1>
-
-Kick off your next [Shopify](https://www.shopify.com/) project with this boilerplate. This starter creates a store with a custom landing page, individual filtered views for each product, detailed product pages, advanced instant search and a shopping cart. All styled with CSS Modules.
 
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
 [<img src="https://www.gatsbyjs.com/deploynow.png" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-shopify)
 
 Check out the [demo site](https://shopify-demo.gatsbyjs.com) showcasing a proof-of-concept with 10k products and 30k variants.
+
+You can then test these product pages using Applitools Eyes.
 
 ## 🚀 Quick start
 
