@@ -74,6 +74,23 @@ A quick look at the top-level files and directories you'll see in this project.
 
 ## Start Testing
 
+The example project uses [npm](https://www.npmjs.com/) for package management.
+For Cypress, you must install project dependencies and set up Applitools Eyes.
+Run the following command (which works on any operating system):
+
+```
+npm install
+```
+
+This example project already has the Applitools Eyes SDK as a dependency.
+If you want to add the Applitools Eyes SDK as a new dependency to another Cypress project,
+run the following commands:
+
+```
+npm install @applitools/eyes-cypress
+npx eyes-setup
+```
+
 ```shell
     npx cypress open
     ```
